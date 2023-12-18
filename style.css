@@ -1,0 +1,48 @@
+body {
+    background-color: #F4F3EE;
+}
+
+/* nav bar */
+.topnav {
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    background-color: #8A817C;
+    display: block;
+    width: 100%;
+}
+
+.topnav a {
+    color: #F4F3EE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    font-family: 'Italiana';
+}
+
+.topnav a:hover {
+    color: #BCB8B1;
+}
+
+.topnav a.active {
+    color: #463F3A;
+}
+
+.topnav-right {
+    float: right;
+    padding-right: 20px;
+    margin-top: -65px;
+}
+
+/* text + pic under nav */
+.container-fluid {
+    padding-top: 200px;
+}
+
+.footer {
+    
+}
