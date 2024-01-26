@@ -1,5 +1,7 @@
 body {
-    background-color: #F4F3EE;
+    background-color: #8A817C;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 /* nav bar */
@@ -39,40 +41,109 @@ body {
 }
 
 /* home page | text + pic under nav */
-.container-fluid {
-    padding-top: 200px;
-    padding-left: 130px;
-    padding-right: 130px;
-}
-
 .text1 {
     color: #463F3A;
     font-family: 'Italiana';
     font-size: 70px;
     padding-bottom: 20px;
+    padding-top: 50px;
+    text-align: center;
 }
 
 .text2 {
-    color: #8A817C;
+    color: #F4F3EE;
     font-family: 'Italiana';
     font-size: 55px;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .text3 {
     color: #E0AFA0;
     font-family: 'Italiana';
     font-size: 30px;
+    text-align: center;
 }
 
 /* home page | picture */
-.back1 {
-    background-color: #E0AFA0;
-}
-
 footer {
     background-color: #8A817C;
     padding: 20px;
     text-align: center;
     color:#F4F3EE;
+}
+
+
+
+.back2 {
+    padding-bottom: 350px;
+}
+.container-fluid1 {
+    padding-top: 80px;
+}
+
+.container-fluid {
+    background-color: #E0AFA0;
+    padding-bottom: 80px;
+}
+
+.back2, .back3, .backk2 {
+    background-color:#8A817C;
+}
+
+/* logo animate */
+.marquee {
+    display: flex;
+    height: 35vh;
+    user-select: none;
+    gap: 10rem;
+    padding-top: 1rem;
+    background-color: #F4F3EE;
+}
+
+.marquee-group {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+    min-width: 100%;
+    animation: scroll 15s linear infinite;
+}
+
+.marquee-group span {
+    font-size: 7vw;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-100% - 2rem));
+    }
+}
+
+/* service page */
+.text4 {
+    color: #463F3A;
+    font-family: 'Italiana';
+    font-size: 70px;
+    padding-bottom: 20px;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.text5 {
+    color: #BCB8B1;
+    font-family: 'Italiana';
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.container-fluid3 {
+    padding-top: 40px;
 }
