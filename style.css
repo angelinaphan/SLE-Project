@@ -4,10 +4,6 @@ body {
     overflow-x: hidden;
 }
 
-.wave {
-    margin-top: -60px;
-}
-
 /* nav bar */
 .topnav {
     overflow: hidden;
@@ -68,6 +64,23 @@ body {
     font-family: 'Italiana';
     font-size: 30px;
     text-align: center;
+    padding-top: 10px;
+}
+
+.text7 {
+    color: #E0AFA0;
+    font-family: 'Italiana';
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.text8 {
+    color: #463F3A;
+    font-family: 'Italiana';
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 /* home page | picture */
@@ -137,8 +150,9 @@ footer {
     font-family: 'Italiana';
     font-size: 70px;
     padding-bottom: 20px;
-    padding-top: -50px;
+    padding-top: 130px;
     text-align: center;
+  
 }
 
 .text5 {
@@ -147,8 +161,21 @@ footer {
     font-size: 55px;
     text-align: center;
     padding-bottom: 40px;
+   
+}
+
+.con3 {
+    background-color: #8A817C;
 }
 
 .container-fluid3 {
-    padding-top: 40px;
+    padding-top: 70px;
+}
+
+.text6 {
+    color: #F4F3EE;
+    font-family: 'Italiana';
+    font-size: 25px;
+    float: left;
+    padding-left: 30px;
 }
