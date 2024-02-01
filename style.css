@@ -156,7 +156,7 @@ footer {
 }
 
 .text5 {
-    color: #BCB8B1;
+    color: #F4F3EE;
     font-family: 'Italiana';
     font-size: 55px;
     text-align: center;
@@ -172,10 +172,22 @@ footer {
     padding-top: 70px;
 }
 
-.text6 {
+.text9 {
     color: #F4F3EE;
     font-family: 'Italiana';
     font-size: 25px;
-    float: left;
-    padding-left: 30px;
+    padding-left: 25px;
+    padding-top: 10px;
+    position: relative;
+} 
+
+.t9 h1:after {
+    content: '';
+    display: block;
+    width: 120px;
+    height:2px;
+    background:#F4F3EE;
+    position: absolute;
+    right: 250px;
+    top: 50%;
 }
