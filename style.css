@@ -72,7 +72,7 @@ body {
     font-family: 'Italiana';
     font-size: 45px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 60px;
 }
 
 .text8 {
@@ -80,7 +80,7 @@ body {
     font-family: 'Italiana';
     font-size: 45px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 /* home page | picture */
@@ -178,10 +178,105 @@ footer {
     font-size: 25px;
     padding-left: 25px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     text-align: center;
 } 
 
 .container-fluid4 {
     background-color: #BCB8B1;
 }
+
+.text10 {
+    padding-top: 20px;
+    text-align: center;
+    color: #F4F3EE;
+    font-family: 'Italiana';
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.text11 {
+    color: #8A817C;
+    font-family: 'Italiana';
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.text14 {
+    color: #8A817C;
+    font-family: 'Italiana';
+    font-size: 45px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.nail1 {
+    padding-top: 100px;
+}
+
+.nail2 {
+    padding-top: 100px;
+    padding-right: 30px;
+}
+
+.text12 {
+    color: #463F3A;
+    font-family: 'Italiana';
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.text13 {
+    padding-top: 20px;
+    text-align: center;
+    color: #E0AFA0;
+    font-family: 'Italiana';
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.container-fluid6 {
+    background-color:#F4F3EE;
+    padding-bottom: 75px;
+}
+
+.container-fluid5 {
+    background-color: #F4F3EE;
+}
+
+.phone {
+    padding-top: 10px;
+    text-align: center;
+    color: #F4F3EE;
+    font-family: 'Italiana';
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.text15 {
+    color: #F4F3EE;
+    font-family: 'Italiana';
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.text16 {
+    color: #BCB8B1;
+    font-family: 'Italiana';
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.container-fluid9 {
+    background-color: #8A817C;
+}
+
+.con {
+    background-color: #F4F3EE;
+}
+
